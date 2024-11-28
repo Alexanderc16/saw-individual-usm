@@ -1,0 +1,152 @@
+html,
+body {
+    margin: 0 auto;
+    font: bold 15px Arial, serif;
+}
+
+.meniu {
+    height: 75px;
+    margin: 20px auto;
+    background: #000000;
+    text-align: center;
+    box-shadow: -1px 0px 10px 1px #000000;
+    border-radius: 20px;
+    width: 1250px
+}
+
+.meniu ul li {
+    list-style: none;
+    display: inline-block;
+    font: bold 14px/30px Arial, serif;
+}
+
+.meniu li a,
+b {
+    text-decoration: none;
+    display: block;
+    margin: 0 auto;
+    padding: 22px 50px;
+    color: blanchedalmond;
+    font-size: 45px;
+}
+
+.meniu li a:hover {
+    filter: drop-shadow(0 0 10px blanchedalmond);
+}
+
+.meniu li b {
+    filter: drop-shadow(0 0 10px blanchedalmond);
+}
+
+form {
+    height: 300px;
+    margin: 20px auto;
+    background: #000000;
+    box-shadow: -1px 0px 10px 1px #000000;
+    border-radius: 20px;
+    width: 675px;
+    color: blanchedalmond;
+}
+
+form div {
+    font: bold 30px Arial, serif;
+    display: inline-block;
+    margin: 30px auto;
+    width: 100%;
+}
+
+form div label {
+    display: inline-block;
+    width: 250px;
+}
+
+form div input[type=text],
+input[type=password] {
+    height: 40px;
+    width: 250px;
+    border-radius: 5px;
+    font: bold 25px Arial, serif;
+}
+
+form div input[type=submit] {
+    height: 40px;
+    width: 150px;
+    border-radius: 5px;
+    background-color: blanchedalmond;
+    font: bold 25px Arial, serif;
+    border: 0;
+}
+
+form div input[type=submit]:hover {
+    filter: drop-shadow(0 0 5px blanchedalmond);
+}
+
+.aboba {
+    height: 40px;
+    padding: 10px;
+}
+
+.aboba div {
+    display: inline;
+    margin: 10px;
+}
+
+.post-page,
+.user-page {
+    text-align: center;
+    margin: 0 auto;
+    width: 500px;
+}
+
+.post-page__actions,
+.user-page__actions {
+    font: bold 25px Arial, serif;
+    text-align: left;
+}
+
+.post-page__actions div form,
+.user-page__actions div form {
+    width: 450px;
+    padding: 20px;
+    text-align: center;
+}
+
+.user-page__actions form {
+    height: 200px;
+}
+
+.post-page__actions--delete form {
+    height: 200px;
+}
+
+.slct {
+    height: 70px;
+    font: bold 25px Arial, serif;
+}
+
+.submit_button {
+    height: 40px;
+    width: 150px;
+    border-radius: 5px;
+    background-color: blanchedalmond;
+    font: bold 25px Arial, serif;
+    border: 0;
+}
+
+.submit_button:hover {
+    filter: drop-shadow(0 0 5px blanchedalmond);
+}
+
+.posts {
+    margin: 0 auto;
+    text-align: center;
+    width: 1000px;
+}
+
+.post {
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 100%;
+    padding: 10px;
+    margin: 30px auto;
+}

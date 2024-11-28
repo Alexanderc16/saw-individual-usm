@@ -1,0 +1,6 @@
+SQLSTATE[HY000] [1049] Unknown database 'lab_app'
+SQLSTATE[HY000] [1049] Unknown database 'lab_app'
+SQLSTATE[HY000] [1049] Unknown database 'lab_app'
+SQLSTATE[HY000] [1049] Unknown database 'lab_app'
+SQLSTATE[HY000] [1049] Unknown database 'lab_app'
+SQLSTATE[HY000] [1049] Unknown database 'lab_app'
